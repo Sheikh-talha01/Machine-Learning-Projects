@@ -59,6 +59,9 @@ Dealing with nan values in dataset....
      1. When we have skew distribution of dataset and we are asked to find nan values then we can't use mean value in place of nan values and will use median or mode 
      2. And in case of normally distributed graph having values distributed normally then we will use mean value
 2. Drop
-     1. Another Method is droping but this method is not highly appreciated to drop/delete a record(row).
+     1. Another Method is droping but this method is not highly appreciated to drop/delete a record(row) by using drop() function.
+
+Data Standardization
+  Process of standardizing data to a common format and common range
 
 
