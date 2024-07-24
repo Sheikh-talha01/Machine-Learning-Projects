@@ -54,3 +54,5 @@ Robotics (controlling robot movement), Game playing (training AI to play games),
 Clustering -> is a automatic grouping of similar objects into sets ( Application-> Customer Segmentation )
 Dimensionality Reduction -> Reducing the number of random variables to consider ( Applications-> To increase model efficiency )
 
+When we have skew distribution of dataset and we are asked to find nan values then we can't use mean value in place of nan values
+
