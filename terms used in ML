@@ -63,5 +63,7 @@ Dealing with nan values in dataset....
 
 Data Standardization
   Process of standardizing data to a common format and common range
+First chech the standard Diviation of dataset
+if standard diviation is 1 then data will be in proper range and if not then standardize it
 
 
