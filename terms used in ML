@@ -66,4 +66,7 @@ Data Standardization
 First chech the standard Diviation of dataset
 if standard diviation is 1 then data will be in proper range and if not then standardize it
 
+Label Encoding
+    Converting labels into numeric form
+When we are working with classificatio machine learning problems ( wether the datapoints belongs to one class or another) 
 
