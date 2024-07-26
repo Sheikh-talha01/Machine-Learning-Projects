@@ -79,3 +79,6 @@ BOW( Bag Of Words )
      List of uniqe words in text corpus( collection of words )
 TF-IDF ( Term Frequency-Inverse Document Frequency )
      Used to count No of times each word appear in a document 
+
+Stemming
+     Stemming is the process of reducing words to its root word
