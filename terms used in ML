@@ -75,3 +75,4 @@ While handling with missing values( nan values ) it is not good approch to drop 
 
 Feature Extraction of Text Data
     The mapping from textual data to real valued vectors is called feature extraction 
+BOW( Bag Of Words )
