@@ -71,3 +71,4 @@ Label Encoding
 When we are working with classificatio machine learning problems ( wether the datapoints belongs to one class or another) e.g We are prdicting wether a person is diabetic or non diabetic , and if data tells that 
 one person is diabetic or non diabetic then it is not easy to use that value. So what we do is we will convert diabetic and non diabetic to numeric values i-e either 0 or 1. that is label encoding.
 
+While handling with missing values( nan values ) it is not good approch to drop nan( not a number ) values
