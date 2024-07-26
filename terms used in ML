@@ -77,5 +77,5 @@ Feature Extraction of Text Data
     The mapping from textual data to real valued vectors is called feature extraction 
 BOW( Bag Of Words )
      List of uniqe words in text corpus( collection of words )
-TD-IDF ( Term Frequency-Inverse Document Frequency )
+TF-IDF ( Term Frequency-Inverse Document Frequency )
      Used to count No of times each word appear in a document 
