@@ -82,3 +82,10 @@ TF-IDF ( Term Frequency-Inverse Document Frequency )
 
 Stemming
      Stemming is the process of reducing words to its root word
+import pandas as pd
+import numpy as np
+import sklearn.datasets
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn import svm
+from sklearn.metrics import accuracy_score
