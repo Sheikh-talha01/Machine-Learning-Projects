@@ -81,9 +81,6 @@ TF-IDF ( Term Frequency-Inverse Document Frequency )
      Used to count No of times each word appear in a document 
 
 Stemming
-     Stemming is the process of reducing words to its root word
-import pandas as pd
-import numpy as np
-import sklearn.datasets
-from sklearn.preprocessing import StandardScaler
+     Stemming is the process of reducing words to its root word, e.g enjoyment->enjoyfull->enjoying->enjoys->enjoy
+
 
