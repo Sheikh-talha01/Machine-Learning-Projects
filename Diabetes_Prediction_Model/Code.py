@@ -8,3 +8,6 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+dataset = pd.read_csv('diabetes.csv')
+
