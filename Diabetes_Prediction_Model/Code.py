@@ -11,3 +11,5 @@ import seaborn as sns
 
 dataset = pd.read_csv('diabetes.csv')
 
+dataset.head()
+
