@@ -1,4 +1,6 @@
 # This repo contains all the code of Diabetes Prediction Model
+
+# Import Dependencies
 import pandas as pd
 import numpy as np
 import sklearn.datasets
@@ -24,11 +26,14 @@ diabetes_data = dataset.drop( columns = 'Outcome', axis = 1 )
 target = dataset['Outcome' ]
 
 diabetes_data.head()
-
 target.head()
 
 # Count Plot
 sns.countplot(x = 'Outcome',hue = 'Outcome', data = dataset)
+# Pairplot 
+sns.pairplot(data = dataset, hue = 'Outcome')
+plt.show()
+
 # Standardizing data
 scaler = StandardScaler()
 scaler.fit( diabetes_data )
