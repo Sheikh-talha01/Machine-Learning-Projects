@@ -38,3 +38,10 @@ plt.show()
 scaler = StandardScaler()
 scaler.fit( diabetes_data )
 diabetes_data.standardized = scaler.transform(diabetes_data)
+
+x = diabetes_data.standardized
+y = dataset['Outcome']
+
+
+
+
