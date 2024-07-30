@@ -46,4 +46,4 @@ x_train, x_test, y_train, y_test = train_test_split( x, y, test_size = 0.02, str
 
 print( x.shape, x_train.shape, x_test.shape )
 
-
+classifier = svm.SVC(kernel = 'linear')
