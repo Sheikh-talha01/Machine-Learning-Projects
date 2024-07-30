@@ -26,3 +26,6 @@ target = dataset['Outcome' ]
 diabetes_data.head()
 
 target.head()
+
+# Count Plot
+sns.countplot(x = 'Outcome',hue = 'Outcome', data = dataset)
