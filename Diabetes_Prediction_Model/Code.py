@@ -14,3 +14,5 @@ dataset = pd.read_csv('diabetes.csv')
 dataset.head()
 dataset.shape
 dataset.describe()  
+
+print( dataset['Outcome'].value_counts() )
