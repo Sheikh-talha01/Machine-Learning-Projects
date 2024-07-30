@@ -1,6 +1,6 @@
 # This repo contains all the code of Diabetes Prediction Model
 
-# Import Dependencies
+# Import Dependencies( Required Libraries )
 import pandas as pd
 import numpy as np
 import sklearn.datasets
