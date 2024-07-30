@@ -16,3 +16,6 @@ dataset.shape
 dataset.describe()  
 
 print( dataset['Outcome'].value_counts() )
+
+# Printing Mean of Outcome
+dataset.groupby('Outcome').mean()
