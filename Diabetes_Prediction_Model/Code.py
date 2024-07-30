@@ -1,0 +1,1 @@
+# This repo contains all the code of Diabetes Prediction Model
