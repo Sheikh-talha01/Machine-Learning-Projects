@@ -52,3 +52,5 @@ classifier.fit( x_train, y_train )
 
 x_train_prediction = classifier.predict( x_train )
 training_accuracy_data = accuracy_score( x_train_prediction, y_train ) 
+print( 'The Accuracy Score of trained data is: ', training_accuracy_data )
+
