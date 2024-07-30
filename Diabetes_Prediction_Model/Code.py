@@ -56,3 +56,4 @@ print( 'The Accuracy Score of trained data is: ', training_accuracy_data )
 
 x_test_prediction = classifier.predict( x_test )
 test_accuracy_data = accuracy_score( x_test_prediction, y_test )
+print( 'The Accuracy Score of test data is: ', test_accuracy_data )
