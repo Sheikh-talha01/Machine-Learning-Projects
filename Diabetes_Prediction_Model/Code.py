@@ -29,3 +29,7 @@ target.head()
 
 # Count Plot
 sns.countplot(x = 'Outcome',hue = 'Outcome', data = dataset)
+# Standardizing data
+scaler = StandardScaler()
+scaler.fit( diabetes_data )
+diabetes_data.standardized = scaler.transform(diabetes_data)
