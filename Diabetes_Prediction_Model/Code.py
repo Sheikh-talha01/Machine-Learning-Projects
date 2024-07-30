@@ -42,6 +42,7 @@ diabetes_data.standardized = scaler.transform(diabetes_data)
 x = diabetes_data.standardized
 y = dataset['Outcome']
 
+x_train, x_test, y_train, y_test = train_test_split( x, y, test_size = 0.02, stratify = y, random_state = 2 )
 
 
 
