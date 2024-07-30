@@ -24,3 +24,5 @@ diabetes_data = dataset.drop( columns = 'Outcome', axis = 1 )
 target = dataset['Outcome' ]
 
 diabetes_data.head()
+
+target.head()
