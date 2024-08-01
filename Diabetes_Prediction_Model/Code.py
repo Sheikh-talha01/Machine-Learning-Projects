@@ -25,6 +25,7 @@ dataset.groupby('Outcome').mean()
 diabetes_data = dataset.drop( columns = 'Outcome', axis = 1 )
 target = dataset['Outcome' ]
 
+# Printing top 5 values
 diabetes_data.head()
 target.head()
 
