@@ -25,3 +25,7 @@ dataset.groupby(60).mean()
 
 dataset.describe()
 dataset.info()
+
+# Separating data and labels
+data_ = dataset.drop(60)
+target = dataset[60]
