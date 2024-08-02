@@ -58,3 +58,7 @@ input_data_reshape = input_data_as_array.reshape ( 1,-1)
 prediction = model.predict(input_data_reshape)
 print( prediction)
 
+if ( prediction[0] == 0):
+    print("The object is Mine")
+else:
+    print("The object is Rock")
