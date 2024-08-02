@@ -33,3 +33,7 @@ x.head()
 y.head()
 # Training and Testing Data
 x_train, x_test, y_train, y_test = train_test_split( x, y, test_size = 0.1, stratify = y, random_state = 1 )
+# Checking Accuracy Score on Training Data
+x_train_prediction = model.predict( x_train )
+training_data_accuracy = accuracy_score( x_train_prediction , y_train )
+print( "Accuracy Score of Training data is:", training_data_accuracy )
