@@ -30,3 +30,4 @@ dataset.info()
 x = dataset.drop(columns = 60, axis = 1 )
 y = dataset[60]
 x.head()
+y.head()
