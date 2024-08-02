@@ -13,3 +13,5 @@ dataset_ = pd.read_csv( 'sonar data.csv ', header = None)
 dataset_.head()
 
 dataset_.tail()
+
+dataset = pd.DataFrame(dataset_)
