@@ -27,5 +27,5 @@ dataset.describe()
 dataset.info()
 
 # Separating data and labels
-data_ = dataset.drop(60)
-target = dataset[60]
+x = dataset.drop(columns = 60, axis = 1 )
+y = dataset[60]
