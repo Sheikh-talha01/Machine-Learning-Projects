@@ -16,3 +16,5 @@ dataset_.tail()
 
 dataset = pd.DataFrame(dataset_)
 dataset.head()
+
+dataset.isnull().sum()
