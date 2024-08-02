@@ -21,3 +21,4 @@ dataset.isnull().sum()
 dataset.shape
 
 dataset[60].value_counts()
+dataset.groupby(60).mean()
