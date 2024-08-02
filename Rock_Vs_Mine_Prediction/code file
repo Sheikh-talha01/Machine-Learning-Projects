@@ -13,12 +13,11 @@ from sklearn.linear_model import LogisticRegression
 dataset_ = pd.read_csv( 'sonar data.csv ', header = None)
 
 dataset_.head()
-
 dataset_.tail()
-
 dataset = pd.DataFrame(dataset_)
 dataset.head()
 
+# Checking Null values
 dataset.isnull().sum()
 dataset.shape
 
