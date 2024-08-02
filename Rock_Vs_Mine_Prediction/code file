@@ -18,3 +18,4 @@ dataset = pd.DataFrame(dataset_)
 dataset.head()
 
 dataset.isnull().sum()
+dataset.shape
