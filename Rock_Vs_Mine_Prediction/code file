@@ -15,3 +15,4 @@ dataset_.head()
 dataset_.tail()
 
 dataset = pd.DataFrame(dataset_)
+dataset.head()
