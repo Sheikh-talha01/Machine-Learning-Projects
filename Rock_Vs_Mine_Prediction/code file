@@ -19,3 +19,5 @@ dataset.head()
 
 dataset.isnull().sum()
 dataset.shape
+
+dataset[60].value_counts()
