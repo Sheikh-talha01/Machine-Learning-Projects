@@ -17,3 +17,5 @@ dataset.describe()
 
 dataset.shape
 dataset['target'].value_counts()
+
+dataset.groupby('target').mean()
