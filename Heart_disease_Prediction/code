@@ -13,3 +13,4 @@ dataset.head()
 dataset.tail()
 
 dataset.info()
+dataset.describe()
