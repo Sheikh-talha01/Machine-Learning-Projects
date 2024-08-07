@@ -22,6 +22,7 @@ dataset.groupby('target').mean()
 dataset.isnull().sum()
 
 # Splitting dataset into data and label
-
 x = dataset.drop( columns = 'target', axis = 1)
 y = dataset['target']
+
+x.head()
