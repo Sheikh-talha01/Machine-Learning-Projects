@@ -16,3 +16,4 @@ dataset.info()
 dataset.describe()
 
 dataset.shape
+dataset['target'].value_counts()
