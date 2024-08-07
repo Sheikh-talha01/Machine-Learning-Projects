@@ -11,3 +11,5 @@ dataset = pd.read_csv('heart.csv ')
 
 dataset.head()
 dataset.tail()
+
+dataset.info()
