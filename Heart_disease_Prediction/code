@@ -43,5 +43,7 @@ print( 'Accuracy Score of Testing Data is: ', test_accuracy_score )
 
 input_data = ( 52,1,0,125,212,0,1,168,0,1,2,2,3 )
 data_as_an_array = np.asarray( input_data )
-reshape_input_data = data_as_an_array.reshape( -1, 1)
+reshape_input_data = data_as_an_array.reshape( 1, -1)
+prediction = model.predict( reshape_input_data )
+print( prediction )
 
