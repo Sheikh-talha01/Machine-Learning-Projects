@@ -42,7 +42,7 @@ x_test_prediction = model.predict( x_test )
 test_accuracy_score = accuracy_score( x_test_prediction, y_test )
 print( 'Accuracy Score of Testing Data is: ', test_accuracy_score )
 
-
+# Prediction System
 input_data = ( 52,1,0,125,212,0,1,168,0,1,2,2,3 )
 data_as_an_array = np.asarray( input_data )
 reshape_input_data = data_as_an_array.reshape( 1, -1)
