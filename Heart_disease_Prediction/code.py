@@ -21,6 +21,9 @@ dataset['target'].value_counts()
 dataset.groupby('target').mean()
 dataset.isnull().sum()
 
+# Countplot
+sns.countplot( x = dataset['target'], hue = dataset['target'], data = dataset)
+
 # Splitting dataset into data and label
 x = dataset.drop( columns = 'target', axis = 1)
 y = dataset['target']
