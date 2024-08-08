@@ -26,6 +26,8 @@ sns.countplot( x = dataset['target'], hue = dataset['target'], data = dataset)
 
 # Heatplot
 sns.heatmap( data = dataset )
+# Pairplot
+sns.pairplot( data = dataset )
 # Splitting dataset into data and label
 x = dataset.drop( columns = 'target', axis = 1)
 y = dataset['target']
