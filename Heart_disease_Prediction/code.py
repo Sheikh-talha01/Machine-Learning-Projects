@@ -30,6 +30,7 @@ sns.heatmap( data = dataset )
 # Pairplot
 sns.pairplot( data = dataset )
 
+# BarPlot
 sns.barplot( x = dataset['target'], y = dataset['age'] , data = dataset )
 
 # Splitting dataset into data and label
