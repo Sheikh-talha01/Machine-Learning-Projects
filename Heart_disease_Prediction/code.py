@@ -21,7 +21,7 @@ dataset['target'].value_counts()
 dataset.groupby('target').mean()
 dataset.isnull().sum()
 
-# Count Plot
+# CountPlot
 sns.countplot( x = dataset['target'], hue = dataset['target'], data = dataset)
 
 # Heatplot
