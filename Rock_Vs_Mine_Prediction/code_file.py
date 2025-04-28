@@ -1,6 +1,6 @@
 # This repo includes all the code 
 
-# 
+# Import Dependenciess
 import numpy as np
 import pandas as pd
 import sklearn.datasets
