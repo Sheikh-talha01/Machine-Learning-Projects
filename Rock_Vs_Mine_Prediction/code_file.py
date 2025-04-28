@@ -47,6 +47,8 @@ training_data_accuracy = accuracy_score( x_train_prediction , y_train )
 print( "Accuracy Score of Training data is:", training_data_accuracy )
 
 # Checking Accuracy Score on Testing Data
+
+
 x_test_prediction = model.predict( x_test )
 testing_data_accuracy = accuracy_score( x_test_prediction , y_test )
 print( "Accuracy Score of Testing data is:", testing_data_accuracy )
